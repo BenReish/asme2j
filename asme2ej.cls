@@ -309,6 +309,7 @@
 \DeclareFixedFont{\tensfb}{OT1}{phv}{b}{n}{12}
 \DeclareFixedFont{\tensf}{OT1}{phv}{m}{n}{12}
 \DeclareFixedFont{\phvtf}{OT1}{phv}{b}{n}{18}
+\DeclareFixedFont{\phvtitle}{OT1}{phv}{bc}{n}{24}
 
 
 \DeclareOldFontCommand{\rmbf}{\normalfont\rmfamily\bf}{\mathrm}
@@ -860,7 +861,7 @@
   \hskip1pc}}
   %\vskip.15in%.25in original value w/out flushright
   %\vskip .25pc{\large\twlsfb
-  \vskip .5pc{\Large\phvtf
+  \vskip .5pc{\phvtitle
                \begin{center}\leftskip.5in plus1fill\rightskip\leftskip
                \@title\par\end{center}}
   \vskip2pc{\begin{center}\@author\par\end{center}}\vskip12pt}
